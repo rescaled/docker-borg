@@ -6,6 +6,11 @@ You may obtain the Docker image from the GitHub Package Registry.
 
     docker pull ghcr.io/rescaled/borg:latest
 
+The `borg` binary is set as entrypoint for the image.
+
+    ~ # docker run --rm ghcr.io/rescaled/borg:latest --version
+    borg 1.1.15
+
 ## Security
 If you discover any security-related issues, please email security@rescaled.de instead of using the issue tracker.
 
@@ -15,3 +20,4 @@ If you discover any security-related issues, please email security@rescaled.de i
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+`
